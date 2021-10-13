@@ -29,6 +29,7 @@ function Crawler() {
   return (
     <>
     <h1>2021 BIFF recommended works</h1>
+    <h2>source: https://pedia.watcha.com/ko-KR/decks/qxIT5ReveFkY</h2>
       {crawler && crawler.map((movie,index)=>{
         return(
           <div key={index}>
